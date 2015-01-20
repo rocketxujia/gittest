@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>移动端Web页面指导模板</title>
+    <meta name="description" content="移动端Web页面指导模板" />
+
+    <!-- Mobile viewport 相关 -->
+    <meta name="HandheldFriendly" content="True" /> <!-- 是否对手持设备友好，只有true或者false。 适用于 older Palm and Blackberry models as well as browsers like AvantGo.-->
+    <meta name="MobileOptimized" content="320" />  <!-- 微软为IE Mobile版设置的定义宽度标记，如PocketPC.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />  <!-- 适用最广 iOS, Android, Palm Pre, Blackberry, Windows Phone 7-->
+
+    <!--Mobile Internet Explorer ClearType Technology-->
+    <meta http-equiv="cleartype" content="on" />
+
+    <!-- SEO: If mobile URL is different from desktop URL, add a canonical link to the desktop page -->
+    <link rel="canonical" href="http://1qianbao.com" >  <!--给搜索引擎指定对应的桌面应用地址-->
+
+    <!-- 启动 android 下 chrome 的离线应用的满屏模式 Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />   <!--ios web app 满屏模式-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />  <!--隐藏底部的地址等状态栏-->
+    <meta name="apple-mobile-web-app-title" content="" />     <!--web App Name-->
+
+    <!--告诉设备忽略对邮箱地址/电话号码的识别-->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+
+    <link href="../../../core/core-merge.css" rel="stylesheet" type="text/css" media="screen">
+
+    <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+    <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+</head>
+<body class="">
+    <div class="paf-m-container">
+        <header class="paf-m-header p-h">
+            <a class="back">&lt;</a>
+            <a class="more">我的</a>
+            <h2>女性胸部呵护</h2>
+        </header>
+        <div class="paf-m-main">
+            <div style="height: 3000px;"></div>
+        </div>
+        <footer class="paf-m-footer">
+        </footer>
+    </div>
+</body>
+</html>
